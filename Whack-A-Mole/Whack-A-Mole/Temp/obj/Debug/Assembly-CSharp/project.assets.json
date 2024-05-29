@@ -1,0 +1,135 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "CardboardSamples/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Google.XR.Cardboard": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CardboardSamples.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CardboardSamples.dll": {}
+        }
+      },
+      "Google.XR.Cardboard/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Google.XR.Cardboard.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Google.XR.Cardboard.dll": {}
+        }
+      },
+      "Google.XR.Cardboard.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Google.XR.Cardboard": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Google.XR.Cardboard.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Google.XR.Cardboard.Editor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CardboardSamples/1.0.0": {
+      "type": "project",
+      "path": "CardboardSamples.csproj",
+      "msbuildProject": "CardboardSamples.csproj"
+    },
+    "Google.XR.Cardboard/1.0.0": {
+      "type": "project",
+      "path": "Google.XR.Cardboard.csproj",
+      "msbuildProject": "Google.XR.Cardboard.csproj"
+    },
+    "Google.XR.Cardboard.Editor/1.0.0": {
+      "type": "project",
+      "path": "Google.XR.Cardboard.Editor.csproj",
+      "msbuildProject": "Google.XR.Cardboard.Editor.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "CardboardSamples >= 1.0.0",
+      "Google.XR.Cardboard >= 1.0.0",
+      "Google.XR.Cardboard.Editor >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\hafiz\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Unity Files\\Unity Projects\\VRF\\Whack-A-Mole\\Whack-A-Mole\\Assembly-CSharp.csproj",
+      "projectName": "Assembly-CSharp",
+      "projectPath": "E:\\Unity Files\\Unity Projects\\VRF\\Whack-A-Mole\\Whack-A-Mole\\Assembly-CSharp.csproj",
+      "packagesPath": "C:\\Users\\hafiz\\.nuget\\packages\\",
+      "outputPath": "E:\\Unity Files\\Unity Projects\\VRF\\Whack-A-Mole\\Whack-A-Mole\\Temp\\obj\\Debug\\Assembly-CSharp\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\hafiz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "E:\\Unity Files\\Unity Projects\\VRF\\Whack-A-Mole\\Whack-A-Mole\\CardboardSamples.csproj": {
+              "projectPath": "E:\\Unity Files\\Unity Projects\\VRF\\Whack-A-Mole\\Whack-A-Mole\\CardboardSamples.csproj"
+            },
+            "E:\\Unity Files\\Unity Projects\\VRF\\Whack-A-Mole\\Whack-A-Mole\\Google.XR.Cardboard.csproj": {
+              "projectPath": "E:\\Unity Files\\Unity Projects\\VRF\\Whack-A-Mole\\Whack-A-Mole\\Google.XR.Cardboard.csproj"
+            },
+            "E:\\Unity Files\\Unity Projects\\VRF\\Whack-A-Mole\\Whack-A-Mole\\Google.XR.Cardboard.Editor.csproj": {
+              "projectPath": "E:\\Unity Files\\Unity Projects\\VRF\\Whack-A-Mole\\Whack-A-Mole\\Google.XR.Cardboard.Editor.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

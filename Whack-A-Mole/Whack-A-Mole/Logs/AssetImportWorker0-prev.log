@@ -1,0 +1,1475 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.21f1 (bf09ca542b87) revision 12519882'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 16259 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Shaharyar/UnityGame/Whack-A-Mole/Whack-A-Mole
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61004
+Successfully changed project path to: C:/Users/Shaharyar/UnityGame/Whack-A-Mole/Whack-A-Mole
+C:/Users/Shaharyar/UnityGame/Whack-A-Mole/Whack-A-Mole
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8288] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2017409296 [EditorId] 2017409296 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UG2JAAK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8288] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2017409296 [EditorId] 2017409296 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UG2JAAK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 93.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.21f1 (bf09ca542b87)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Shaharyar/UnityGame/Whack-A-Mole/Whack-A-Mole/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 M260X (ID=0x6605)
+    Vendor:   ATI
+    VRAM:     1004 MB
+    Driver:   27.20.20904.1004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017886 seconds.
+- Loaded All Assemblies, in  0.819 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 548 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.152 seconds
+Domain Reload Profiling: 1968ms
+	BeginReloadAssembly (299ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (115ms)
+	LoadAllAssembliesAndSetupDomain (321ms)
+		LoadAssemblies (291ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (317ms)
+			TypeCache.Refresh (315ms)
+				TypeCache.ScanAssembly (293ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1153ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1044ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (744ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.467 seconds
+Refreshing native plugins compatible for Editor in 14.06 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.871 seconds
+Domain Reload Profiling: 3327ms
+	BeginReloadAssembly (288ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (999ms)
+		LoadAssemblies (887ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (209ms)
+			ScanForSourceGeneratedMonoScriptInfo (35ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1872ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1584ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (966ms)
+			ProcessInitializeOnLoadMethodAttributes (423ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 13.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3014 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (70.4 KB). Loaded Objects now: 3464.
+Memory consumption went from 126.6 MB to 126.5 MB.
+Total: 13.590800 ms (FindLiveObjects: 0.289200 ms CreateObjectMapping: 0.199400 ms MarkObjects: 12.895100 ms  DeleteObjects: 0.205600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5957.933553 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c686a485411b244d6b24147d7663491') in 0.021972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.019324 seconds.
+  path: Assets/Scenes/Game/LightingData.asset
+  artifactKey: Guid(62f030dc3386a5248910511a7f47a12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game/LightingData.asset using Guid(62f030dc3386a5248910511a7f47a12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d39a287d8f789e252b8c7fe2285c673') in 0.002803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005876 seconds.
+  path: Assets/XR/Settings/XRSettings.asset
+  artifactKey: Guid(685a6e61839b3944aa0a7b8f12d1d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/XRSettings.asset using Guid(685a6e61839b3944aa0a7b8f12d1d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19044c39b402d58789c82e84c98600c4') in 0.003816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.021501 seconds.
+  path: Assets/TextMesh Pro/Shaders
+  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f431fb395f9d0dbbb787304cdb51f5') in 0.000842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.027561 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Scripts/GraphicsAPITextController.cs
+  artifactKey: Guid(a6e858f9314cf4903a8b6b60d93e3437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Scripts/GraphicsAPITextController.cs using Guid(a6e858f9314cf4903a8b6b60d93e3437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6028c51582bb47bdc9e498861e1dbae') in 0.001040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005560 seconds.
+  path: Assets/Prefabs/Mole.prefab
+  artifactKey: Guid(ed38e49cc960fa544b322b9084f75c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Mole.prefab using Guid(ed38e49cc960fa544b322b9084f75c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70718a4dc87303ac18d841b1d548b119') in 0.256304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.018464 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(622176f99f711eb45955b2f2dea30bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(622176f99f711eb45955b2f2dea30bf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd661615a576374947363a1ff965cee') in 0.000904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005960 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-972869801
+  artifactKey: Guid(6c808fbc38c1d65468c19ccf4e8b3779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-972869801 using Guid(6c808fbc38c1d65468c19ccf4e8b3779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fa7b4da066c8ab7bca5d10eb0ce23d') in 0.001672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.027453 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Textures/QuadSphere_Pink_BakedDiffuse.png
+  artifactKey: Guid(c50d4290154a549c28cd80199471f9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Textures/QuadSphere_Pink_BakedDiffuse.png using Guid(c50d4290154a549c28cd80199471f9ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '375dc22c9274e54a7b78c909ad5bf7bd') in 0.063185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.024289 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Textures/Icosahedron_Pink_BakedDiffuse.png
+  artifactKey: Guid(156c229a982b84470938f1e4aa02ab43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Textures/Icosahedron_Pink_BakedDiffuse.png using Guid(156c229a982b84470938f1e4aa02ab43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6871a47283da593d699ad73541d4b4f2') in 0.033342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.061586 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1013104721
+  artifactKey: Guid(070ca5a554c438c458db62161f11f8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1013104721 using Guid(070ca5a554c438c458db62161f11f8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a14080a234caf0842433a7164830eb2') in 0.002004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005855 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1343450396
+  artifactKey: Guid(06d9e77e36f528448b75a2714cfa6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1343450396 using Guid(06d9e77e36f528448b75a2714cfa6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e578290a9f6da6d327cdef2e5899c0') in 0.001712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010412 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8365c14771796ff17d339b61ffd2609') in 0.003346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007782 seconds.
+  path: Assets/Design/mole.blend
+  artifactKey: Guid(ca4b5be1a55f52048aacfb398877928f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/mole.blend using Guid(ca4b5be1a55f52048aacfb398877928f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639a7d84398ecb88973936fcc68b13af') in 0.077470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.007679 seconds.
+  path: Assets/Design/full arcade.blend
+  artifactKey: Guid(082e5815faa002942b025794b35eb8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/full arcade.blend using Guid(082e5815faa002942b025794b35eb8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5384d9d46cee5b7d857932215afd19') in 0.092782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.061415 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1836284871
+  artifactKey: Guid(7c001e8ba8832f142959ac612816e343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1836284871 using Guid(7c001e8ba8832f142959ac612816e343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e9fb100d2b015891132d35149b87517') in 0.001715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004432 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25524e152126d39616bdb6d7e34b8aa6') in 0.000812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004912 seconds.
+  path: Assets/Resources/BillingMode.json
+  artifactKey: Guid(55343587451ae0f48bd790f135e50335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/BillingMode.json using Guid(55343587451ae0f48bd790f135e50335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2c97bf95346d99ad038891606b84c1') in 0.001803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004798 seconds.
+  path: Assets/XR
+  artifactKey: Guid(14fcb93b844d6c840a70a94139d20a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(14fcb93b844d6c840a70a94139d20a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ce0402d8516799adf071ce16b1b8ac') in 0.001031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003996 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache
+  artifactKey: Guid(f90c63ebb67ace4499e1fac43eb9842f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache using Guid(f90c63ebb67ace4499e1fac43eb9842f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06df20ddba092911a0719d750e3c1a4b') in 0.000924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007042 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Textures/TriSphere_Pink_BakedDiffuse.png
+  artifactKey: Guid(d8ab1240b87c44144a6a89c3123c7654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Textures/TriSphere_Pink_BakedDiffuse.png using Guid(d8ab1240b87c44144a6a89c3123c7654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09f750bac1da7504378803170c63adf') in 0.033793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006504 seconds.
+  path: Assets/Scripts/Leaderboard.cs
+  artifactKey: Guid(13d3a7035d182054ca87982bed362c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Leaderboard.cs using Guid(13d3a7035d182054ca87982bed362c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4981e89c0bbd7e4047cc5f30f54690e3') in 0.001060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008676 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1176782878
+  artifactKey: Guid(eed490ea26e443a4e98344978dd3631c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1176782878 using Guid(eed490ea26e443a4e98344978dd3631c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facd5dc65ab0dd154b9448236632dd05') in 0.001599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003453 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30796653c4dfc1f2480bca9d8b60487c') in 0.000812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012766 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1833936342
+  artifactKey: Guid(214cc96de0c953c41b978328dbaf4eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1833936342 using Guid(214cc96de0c953c41b978328dbaf4eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1b2f93c620c8e64f12ad1b098b7622') in 0.001632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009453 seconds.
+  path: Assets/Design/whack-a-mole.blend
+  artifactKey: Guid(7d11f66324a8cf9499563c4ed67a37a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/whack-a-mole.blend using Guid(7d11f66324a8cf9499563c4ed67a37a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6529b96935198905615942346a4a2f53') in 0.069401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.007097 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/obj/0ro1mro5.eyk
+  artifactKey: Guid(f7f12c3c550be7842a29a9cfebd88f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/obj/0ro1mro5.eyk using Guid(f7f12c3c550be7842a29a9cfebd88f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba0b292c27641279df2f4be0970bfc7') in 0.007356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.038831 seconds.
+  path: Assets/Design/Materials
+  artifactKey: Guid(4236a7462f4d26546b1dd96d618781c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/Materials using Guid(4236a7462f4d26546b1dd96d618781c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5d50511f852a631b7a3dffb27f0430') in 0.005858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.023865 seconds.
+  path: Assets/GazeInteraction/GazeInteractionSystem_API.pdf
+  artifactKey: Guid(fb594a2c9b6950646a63d6ccc70be517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/GazeInteractionSystem_API.pdf using Guid(fb594a2c9b6950646a63d6ccc70be517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa033176a2bc3bd90d8578c89139b3ff') in 0.001982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006518 seconds.
+  path: Assets/Scripts/AudioManager.cs
+  artifactKey: Guid(340953d842cf0cd45a54a4760e73f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/AudioManager.cs using Guid(340953d842cf0cd45a54a4760e73f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c487ed7826ce4d7c5abf4d1d473606') in 0.000953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.048170 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1393833848
+  artifactKey: Guid(1f720b94f90ba4b408b59e993a084e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1393833848 using Guid(1f720b94f90ba4b408b59e993a084e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c8d12ef1e6d312390e4d1cb7cb175e') in 0.028770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.030068 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/656515408
+  artifactKey: Guid(795812c601b8c5f428f01eab82896779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/656515408 using Guid(795812c601b8c5f428f01eab82896779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68304192a9150afdb95a45ef3158f5d4') in 0.024693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005829 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(fa3457883a7117249b4be5fb71c9ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(fa3457883a7117249b4be5fb71c9ea1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f0411c091c8d0f17aa039d39225242') in 0.001063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006543 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/651684238
+  artifactKey: Guid(0a1644bdc8f66dd448b9d1a1b96d70af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/651684238 using Guid(0a1644bdc8f66dd448b9d1a1b96d70af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d150ce3486c67e324dcf1d1a253e08') in 0.001701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.007080 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Scripts/ObjectController.cs
+  artifactKey: Guid(fb0fad8e3b2754aaeb18724ea18d2a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Scripts/ObjectController.cs using Guid(fb0fad8e3b2754aaeb18724ea18d2a3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ddd201860d8b0e1dd66c8e7640f30d') in 0.001085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.025817 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1434852751
+  artifactKey: Guid(6464832932228d44596bee43d464a1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1434852751 using Guid(6464832932228d44596bee43d464a1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca5e023a7bb898db5b4d58b15a4d129') in 0.003363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.049954 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb85272f58133ee39b1d07359fcb503') in 0.002286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003998 seconds.
+  path: Assets/Scenes/Game
+  artifactKey: Guid(0a8f9a2f689299a4fa08b163518a3406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game using Guid(0a8f9a2f689299a4fa08b163518a3406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c170c7345e556c315aa15a906d2b2e5') in 0.000944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.064607 seconds.
+  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
+  artifactKey: Guid(d7da7a63f49ca7b4aacba46e01944358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(d7da7a63f49ca7b4aacba46e01944358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84935d824699f77c7a288891c5ca2e0e') in 0.043675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.004985 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af00edb55e05cf3e37977090ae9927d6') in 0.005153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.022682 seconds.
+  path: Assets/Scripts/OptionButtonEvents.cs
+  artifactKey: Guid(5019e267adb0c6f42912abe97ff71dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/OptionButtonEvents.cs using Guid(5019e267adb0c6f42912abe97ff71dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beea28852a45ac6576799092df37c61d') in 0.000919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005720 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/974983119
+  artifactKey: Guid(ad0a1fe7845a6364bb243e13f77a1b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/974983119 using Guid(ad0a1fe7845a6364bb243e13f77a1b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7097b5def67f92f29298a94994a5634') in 0.001574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.044851 seconds.
+  path: Assets/GazeInteraction/Art/reticle_center.png
+  artifactKey: Guid(857a635729a4efb43bba0801e14269c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Art/reticle_center.png using Guid(857a635729a4efb43bba0801e14269c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b598dd4fbe65fd6f920205989ba628c') in 0.042077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.047969 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/727315427
+  artifactKey: Guid(ff84255725b23044784b44c940d69b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/727315427 using Guid(ff84255725b23044784b44c940d69b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbe6cd2778fd972a54d80cf7671a89a') in 0.001692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005764 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1853194438
+  artifactKey: Guid(783e2fd5d8569b94d88a597ed4a2e5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1853194438 using Guid(783e2fd5d8569b94d88a597ed4a2e5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1d06e22010221580cb87d152bb8d8f') in 0.001752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.023805 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/481213728
+  artifactKey: Guid(1e294b7def0d6aa48ac996734e228db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/481213728 using Guid(1e294b7def0d6aa48ac996734e228db9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e6c394f55b8bc9564fd3c5bd292838') in 0.001587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005582 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1429091001
+  artifactKey: Guid(283efafdfd55a244bab05353953c5608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1429091001 using Guid(283efafdfd55a244bab05353953c5608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081d06a02afd59ffbf18a0458fe3e7d2') in 0.001633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.068852 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Models/Materials
+  artifactKey: Guid(c005ef73dcba345e8aa4e53a907eaab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Models/Materials using Guid(c005ef73dcba345e8aa4e53a907eaab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67135cc6d52509cf48453b287a84d1de') in 0.000861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005007 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f57928ea3e50016ba38984b95b8e5d') in 0.017334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006281 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07bad319e7e76795027dd76904d4b89b') in 0.001499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012046 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/341985746
+  artifactKey: Guid(9d4e8982a397cd44b9eac5d9c8277bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/341985746 using Guid(9d4e8982a397cd44b9eac5d9c8277bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed33bb5b6fc56644c88c52d4f111c16e') in 0.001694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005518 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1627839014
+  artifactKey: Guid(04f282b9671eb8c4badfeafb6e2a3a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1627839014 using Guid(04f282b9671eb8c4badfeafb6e2a3a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1853ff2399ac43e75da1df796761afc') in 0.001542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.045323 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Textures
+  artifactKey: Guid(e360c35f5834342bd8dbf7077a361cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Textures using Guid(e360c35f5834342bd8dbf7077a361cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fddd595a0e12131dd61b2eb1df04c84') in 0.001002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006307 seconds.
+  path: Assets/GazeInteraction/Art/reticle_progress.png
+  artifactKey: Guid(28955bf2e5e9d594e8875895875beb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Art/reticle_progress.png using Guid(28955bf2e5e9d594e8875895875beb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb68eafe6b13f5a30a563744501b4024') in 0.025732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.037394 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets
+  artifactKey: Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets using Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4be22d1ef66f63031ca6da898dd5950') in 0.000967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.022448 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-713006683
+  artifactKey: Guid(d552f7be1c1d7a649a835f7a221e4db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-713006683 using Guid(d552f7be1c1d7a649a835f7a221e4db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b05dcd739bc9304c0d661fb5265b018') in 0.001577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005537 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-881548099
+  artifactKey: Guid(a6a7fe27b9934b64181a12217a730604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-881548099 using Guid(a6a7fe27b9934b64181a12217a730604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088c8b838717834ed0a409116d76914f') in 0.001725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005499 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d0d565c80eed902ab8a5b1ea83cabb') in 0.001856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.040277 seconds.
+  path: Assets/Scripts/Player.cs
+  artifactKey: Guid(cbd5f052fdd68014888b91b5726b01b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player.cs using Guid(cbd5f052fdd68014888b91b5726b01b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba666baf6e4a0f19a1fec0107f17375') in 0.000947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011811 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/749384474
+  artifactKey: Guid(2f7f0171864468e4ba9e5dd7ef172416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/749384474 using Guid(2f7f0171864468e4ba9e5dd7ef172416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb220de2dc1fea19f8a620809aaf925') in 0.001733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.021788 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d0dae0f47f91f6f5c0463596ac0cff') in 0.001375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006487 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd139a89d0f388c2b7c9db51fd3f33b') in 0.033432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.022206 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/781443439
+  artifactKey: Guid(dd2ec1543f7225f4a806e5dc0f1d2b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/781443439 using Guid(dd2ec1543f7225f4a806e5dc0f1d2b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb9de45638108a3df0abcdf23eacfbb') in 0.001843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.023284 seconds.
+  path: Assets/Scenes/Game/ReflectionProbe-0.exr
+  artifactKey: Guid(18d33daecea30034c9989a9ac22baaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game/ReflectionProbe-0.exr using Guid(18d33daecea30034c9989a9ac22baaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd366e111b5747fbf73e768f5bea6fd62') in 0.080604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003980 seconds.
+  path: Assets/Scripts/Hammer.cs
+  artifactKey: Guid(8fdd91a3e0e51304fa6c2870f92393d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Hammer.cs using Guid(8fdd91a3e0e51304fa6c2870f92393d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0142f54ed7f1d7ea815095e9b96fc43f') in 0.001050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007240 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Textures/Icosahedron_Blue_BakedDiffuse.png
+  artifactKey: Guid(20df56dbf584b430da1c71ced37866f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Textures/Icosahedron_Blue_BakedDiffuse.png using Guid(20df56dbf584b430da1c71ced37866f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967059ee271cf42387958b2548f4dc2c') in 0.033136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006822 seconds.
+  path: Assets/Scripts/UIEvents.cs
+  artifactKey: Guid(bc01c9835349d5945bd68f490313dd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UIEvents.cs using Guid(bc01c9835349d5945bd68f490313dd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244289499f6cfd02aac9d3db8de27c55') in 0.001138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.014592 seconds.
+  path: Assets/GazeInteraction/Resources/Prefabs
+  artifactKey: Guid(857ecd107a6a01a4ca479190a477f755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Resources/Prefabs using Guid(857ecd107a6a01a4ca479190a477f755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89cb09df18eef003e1dd3710255dd69') in 0.000958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005867 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1383901011
+  artifactKey: Guid(6ca80939b200df34aaf4b0c87b4cfef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1383901011 using Guid(6ca80939b200df34aaf4b0c87b4cfef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bfb0b9bb76f5a09004eb2863f617fc') in 0.001593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004087 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Environments/Materials
+  artifactKey: Guid(35ef9188aca884a8186003557201be44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Environments/Materials using Guid(35ef9188aca884a8186003557201be44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f907a4b7c0be88b7a47947304672c55b') in 0.000878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005592 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Scenes/VrModeInputSystem.unity
+  artifactKey: Guid(5c77726c21e7149219e6895d34b6df16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Scenes/VrModeInputSystem.unity using Guid(5c77726c21e7149219e6895d34b6df16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda4b751ace7dc80e899ba4a5bcff6e2') in 0.001035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005655 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1983590942
+  artifactKey: Guid(d1dc4d00d8abbdc4498b1aa31f420d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1983590942 using Guid(d1dc4d00d8abbdc4498b1aa31f420d47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f97a30186b1433da9ab8a620928212c') in 0.001711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005638 seconds.
+  path: Assets/GazeInteraction/Scripts/ResourcesManager.cs
+  artifactKey: Guid(0201c900566404d409797100bf615ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/ResourcesManager.cs using Guid(0201c900566404d409797100bf615ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e1f096ba6ca6312ba89dc4fc15277a') in 0.000982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003724 seconds.
+  path: Assets/GazeInteraction/Art
+  artifactKey: Guid(e12bf26e842e8e549a7d9355190c131d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Art using Guid(e12bf26e842e8e549a7d9355190c131d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaed5dd907810698733a695094c1e2d') in 0.000926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.026008 seconds.
+  path: Assets/Design/hammer.blend
+  artifactKey: Guid(0faf688a174c27444b0ef11c694b3371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Design/hammer.blend using Guid(0faf688a174c27444b0ef11c694b3371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d1e70ea3e202a7b5bc76c69dc99a55') in 0.033846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.006677 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1939793974
+  artifactKey: Guid(5aeef1b68e821f04ca707e57e8932b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1939793974 using Guid(5aeef1b68e821f04ca707e57e8932b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c998064bbca7b12381bae5e3fc23d29') in 0.001667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005925 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/816513186
+  artifactKey: Guid(0099a846fbf23504697c96d536049c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/816513186 using Guid(0099a846fbf23504697c96d536049c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e68dd892b1c115403a3cd9a88dc4d72') in 0.001823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005553 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/671586416
+  artifactKey: Guid(e076aeaa98612f84db4854b901e30537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/671586416 using Guid(e076aeaa98612f84db4854b901e30537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138dc65e21e7c6512cdcb257562ac2b9') in 0.001627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004267 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Models
+  artifactKey: Guid(af4d2b635db24449d93f9d8647261c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Models using Guid(af4d2b635db24449d93f9d8647261c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1284a92b08cbc9816c9029a8f2462109') in 0.000866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005291 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Scenes/HelloCardboardInputSystem.unity
+  artifactKey: Guid(76b5898cf91253445b7d40e735b99874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Scenes/HelloCardboardInputSystem.unity using Guid(76b5898cf91253445b7d40e735b99874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6711619272d1a7825f1301996c0a514a') in 0.000907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.040362 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1785798144
+  artifactKey: Guid(8a8d167ff20757246914f6eae65bf2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1785798144 using Guid(8a8d167ff20757246914f6eae65bf2b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89669c4176027cfa18e85519c8cb1b8e') in 0.001642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005903 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961a9489929e5ae2005b8b19780de6ff') in 0.001372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006276 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956bf6baea4b638986c709a87047b7fa') in 0.001338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003853 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final
+  artifactKey: Guid(bf0ffe1b874d4d94883f2d53eb0e3950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final using Guid(bf0ffe1b874d4d94883f2d53eb0e3950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f871a37a180a0b3eb01618226624661') in 0.000941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.021586 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-2045258625
+  artifactKey: Guid(5484e42314abd7c4d82be96754bfee28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-2045258625 using Guid(5484e42314abd7c4d82be96754bfee28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4433d3d605ea13e16db384b3ed210fac') in 0.001711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005562 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e0872a344a2232916630376c77a2c5') in 0.002050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003686 seconds.
+  path: Assets/XR/Loaders
+  artifactKey: Guid(6e9c6170b984a3d4da4b7f3a44f46061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders using Guid(6e9c6170b984a3d4da4b7f3a44f46061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3350d9b50588be68f4c6dae8acf58f') in 0.000842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005455 seconds.
+  path: Assets/Scenes/GameSettings.lighting
+  artifactKey: Guid(455dd5c6cd1c42a4693e14848a8f5419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameSettings.lighting using Guid(455dd5c6cd1c42a4693e14848a8f5419) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'f8f9bc2e812c1a4ca4d6a5b45060502e') in 0.002271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008941 seconds.
+  path: Assets/GazeInteraction/Scripts
+  artifactKey: Guid(c9da8f02025ff6142ae74bcddc8ed8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts using Guid(c9da8f02025ff6142ae74bcddc8ed8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11a9f33c2b38514553684643771d4d3') in 0.002242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.029076 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0a91165ec28a70eac50fe253fa64738') in 0.001624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.077440 seconds.
+  path: Assets/GazeInteraction/Resources/Prefabs/gaze_reticle.prefab
+  artifactKey: Guid(965ac2876a19002499a5ff783269d54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Resources/Prefabs/gaze_reticle.prefab using Guid(965ac2876a19002499a5ff783269d54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d8a69f4861f9c8b3b3c219e4ba340c') in 0.019424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.018854 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1258327296
+  artifactKey: Guid(04beb960bc0a15244932af8b562f7adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1258327296 using Guid(04beb960bc0a15244932af8b562f7adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684b63359d926d35df7d48a9dafd9b54') in 0.001661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005586 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-325628539
+  artifactKey: Guid(0a6077a6c2afacb48881ff9d717b874a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-325628539 using Guid(0a6077a6c2afacb48881ff9d717b874a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414e80a533cd9cd0dca438d3a2be2639') in 0.001607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005967 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1637172537
+  artifactKey: Guid(f0a81ab55e0b528449f45abc98f7bbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1637172537 using Guid(f0a81ab55e0b528449f45abc98f7bbed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd869c1268147a17410c30448d06df8') in 0.001683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006024 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/788223595
+  artifactKey: Guid(527298b4ec5573e429f0eb3baea4ea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/788223595 using Guid(527298b4ec5573e429f0eb3baea4ea38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71805e9351d34df0256a390603bd473e') in 0.001595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.009626 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a65d7b4625b028ab1c588f0861fba39') in 0.001298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.033451 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a762f227e90fdc549b2120ec351e0b') in 0.001292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.017762 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1f88f9f9eb89b12430ba8004c62006') in 0.001482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005757 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1891111210
+  artifactKey: Guid(e079fe884eb9cbd478a815881faecbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1891111210 using Guid(e079fe884eb9cbd478a815881faecbb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad9db3acf36e3460ba80f6336867fac') in 0.001581 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006044 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-856671034
+  artifactKey: Guid(64e8e13ecead9ef4ea5319bf141bcf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-856671034 using Guid(64e8e13ecead9ef4ea5319bf141bcf67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e1b95b9318d64d8a9a39cb6cb5ef84') in 0.002034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.022365 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b883d3ed2c3438ac33a33331131d1a') in 0.001316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.029745 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/obj/sjwzzvqm.1qe
+  artifactKey: Guid(9ce9554c846e4784a938f835db684f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/obj/sjwzzvqm.1qe using Guid(9ce9554c846e4784a938f835db684f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba79de7466d4303370336b297f5c089a') in 0.001612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.046777 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Scripts/CardboardStartup.cs
+  artifactKey: Guid(dd68f027e715c44aa8d097000d4cccfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Scripts/CardboardStartup.cs using Guid(dd68f027e715c44aa8d097000d4cccfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68aefadd0dc6d2b52670daf23601fba9') in 0.000938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.044184 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-875566788
+  artifactKey: Guid(0b87786ff2355434994cf9045daa11d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-875566788 using Guid(0b87786ff2355434994cf9045daa11d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c54a843380683cf1a460bb7bc6e7575') in 0.001563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.028641 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Scripts/VrModeController.cs
+  artifactKey: Guid(f478d43f27e324b7199d5dccff4298b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Scripts/VrModeController.cs using Guid(f478d43f27e324b7199d5dccff4298b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b7f598f9226ec4953550ce772b675a3') in 0.000972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003760 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7eab248413d5372ca0e38f8fa86db8') in 0.001023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.027943 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8fb3b35584e293e1af718b86d7fa852') in 0.002206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005184 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1303061434
+  artifactKey: Guid(c30399c67463bfa4ba995762b7c73e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1303061434 using Guid(c30399c67463bfa4ba995762b7c73e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef7493e926bde034514c9b784a8a63d') in 0.002158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006349 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/698178538
+  artifactKey: Guid(314f77d37a7a78a48b670de59d11a9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/698178538 using Guid(314f77d37a7a78a48b670de59d11a9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0eafda86e2a9a3b609a4dac2aec805') in 0.001646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005570 seconds.
+  path: Assets/Scripts/Mole.cs
+  artifactKey: Guid(0ce6064eee5de404483f5f3b027344e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Mole.cs using Guid(0ce6064eee5de404483f5f3b027344e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2956f0ed187908cb11e2c272d4ac14c9') in 0.000887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005782 seconds.
+  path: Assets/GazeInteraction/Scripts/GazeReticle.cs
+  artifactKey: Guid(8b984ee318b2df14aacd94be0cfe5881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/GazeReticle.cs using Guid(8b984ee318b2df14aacd94be0cfe5881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9641255a3b1c7f4fcb6f85f602399279') in 0.000879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005336 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(ba1cb372cb62d97468d775159eb25949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(ba1cb372cb62d97468d775159eb25949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a2f505b4dd85a71c802d621ff8514d') in 0.000895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.030752 seconds.
+  path: Assets/GazeInteraction/license.txt
+  artifactKey: Guid(ea6985061a30cc6409bd7367dedf48da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/license.txt using Guid(ea6985061a30cc6409bd7367dedf48da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e859128b9763d90e0ceaf05995e01018') in 0.002066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.010226 seconds.
+  path: Assets/GazeInteraction/Resources
+  artifactKey: Guid(07d9d5e819401bf4a858309a3abac65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Resources using Guid(07d9d5e819401bf4a858309a3abac65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daeeaa0afc9904480573e05cc0622705') in 0.000948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005554 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/2142005550
+  artifactKey: Guid(f8a91581ac3fa25409120d40ba5e4efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/2142005550 using Guid(f8a91581ac3fa25409120d40ba5e4efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481ee6936594f1a1a585932aa1322815') in 0.001868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.011367 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb6d1bb3844c1665e2be9db4f0b1ddf') in 0.001344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.012152 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb17b39ab37ff5c4a0c347358e9d790f') in 0.001878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005778 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1968111918
+  artifactKey: Guid(b8e895e205da97848b1beec71b3a2bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1968111918 using Guid(b8e895e205da97848b1beec71b3a2bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb942a7cc48f0172680966bf54d4696e') in 0.001670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.011738 seconds.
+  path: Assets/Scripts/LeaderboardDisplay.cs
+  artifactKey: Guid(2859356ba2bd47646a3a5c1f8d72f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LeaderboardDisplay.cs using Guid(2859356ba2bd47646a3a5c1f8d72f844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4d685e89c6e88288716355e674baad') in 0.000929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004333 seconds.
+  path: Assets/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1284b6d9112892823920c4a518038a02') in 0.000927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006552 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2f603c20fc83149d951696e0b5ff78e') in 0.002040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003725 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(7aaebe8024e4aaf49a8c6538393356ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(7aaebe8024e4aaf49a8c6538393356ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4112bc5f393980dee2ffcf366c0f98') in 0.001103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007785 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1123690293
+  artifactKey: Guid(b982db87902ed27448881aacbbbcfb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1123690293 using Guid(b982db87902ed27448881aacbbbcfb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9196b1aaeb6bb008029db9fbeeaff93f') in 0.001720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.052171 seconds.
+  path: Assets/Plugins/Android
+  artifactKey: Guid(35a43bc85fc2cef4db7a951e90a82096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android using Guid(35a43bc85fc2cef4db7a951e90a82096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683f31cc7a415fc6b697e4b350380ce2') in 0.000843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005890 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65a4ce8400ff49749468270fd34ede3') in 0.002179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.031810 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1013773781
+  artifactKey: Guid(27e374748c1af7c428e23cc5fb9bf629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1013773781 using Guid(27e374748c1af7c428e23cc5fb9bf629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90549eba0525a4a9f068f18ae1226c83') in 0.001622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.028396 seconds.
+  path: Assets/GazeInteraction/GazeInteractionSystem_Documentation.pdf
+  artifactKey: Guid(62905cfc58764944c8bc18abc8b8cd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/GazeInteractionSystem_Documentation.pdf using Guid(62905cfc58764944c8bc18abc8b8cd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff8a1aec630830c10166be3b2b78e90') in 0.001662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003492 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc
+  artifactKey: Guid(e24b3abbad13cfc4d883096ac6a253b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc using Guid(e24b3abbad13cfc4d883096ac6a253b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d55e5b93d2ca737e59c4c27bcf512d') in 0.000863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005695 seconds.
+  path: Assets/Scripts/ButtonOptionsHover.cs
+  artifactKey: Guid(124328061ddc56748bbebcea90c67c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ButtonOptionsHover.cs using Guid(124328061ddc56748bbebcea90c67c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b7292a4304efa01962ec9cdf8aedd5') in 0.000946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005621 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4b902abfd67ae1af843b8ca871275a') in 0.001501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005696 seconds.
+  path: Assets/Scripts/GameobjectEnabler.cs
+  artifactKey: Guid(c682f131e4d456e458429ced48cc5707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameobjectEnabler.cs using Guid(c682f131e4d456e458429ced48cc5707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6742c4375cdf21b2eeb04b60d2064fe') in 0.000969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.015928 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets
+  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056cf6914e695e5184ae907488c442f7') in 0.000989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.024241 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-239105998
+  artifactKey: Guid(5eb94581ba45ed24c9c7d9726c475394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-239105998 using Guid(5eb94581ba45ed24c9c7d9726c475394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01134dac9f72cb2fdfe7ef4addc426e5') in 0.001901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002981 seconds.
+  path: Assets/GazeInteraction/Scripts/GazeInteractor.cs
+  artifactKey: Guid(92e10773052cfe849a7ffb2a7a1045e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/GazeInteractor.cs using Guid(92e10773052cfe849a7ffb2a7a1045e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0241a193d91bba7867483833a0081aa9') in 0.000904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011241 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4948e3d3b156c358d774882348c13a') in 0.001847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005647 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeaacf1233f64829e7e78d3457279bcf') in 0.001541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.021308 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1000284068
+  artifactKey: Guid(5b704dab1bc4c0f4988ea9ff1a1ea67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1000284068 using Guid(5b704dab1bc4c0f4988ea9ff1a1ea67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ea4750d3481d11fa7e47fd468cf3bbf') in 0.001614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008805 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Scenes/HelloCardboard.unity
+  artifactKey: Guid(145a2a45d7bc746b19cb68410368bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Scenes/HelloCardboard.unity using Guid(145a2a45d7bc746b19cb68410368bf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a41e4c9172fad0ca87e75df5ea1ee1') in 0.001167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/614820458
+  artifactKey: Guid(2bb0bb651e2aece49bbfb32c2e022e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/614820458 using Guid(2bb0bb651e2aece49bbfb32c2e022e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2d128bc03e6947390f3d8a0b0ccd93') in 0.001823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006875 seconds.
+  path: Assets/Scripts/GameController.cs
+  artifactKey: Guid(c091738a9edc0bf4e9f7cbda80308fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameController.cs using Guid(c091738a9edc0bf4e9f7cbda80308fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd010045aac78c658f28111094cab3ec9') in 0.001080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-917392302
+  artifactKey: Guid(1c60533125fb1ca47a3a382ae046fa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-917392302 using Guid(1c60533125fb1ca47a3a382ae046fa3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d26c5cd1c9c7664700c1d51e3505f2') in 0.003038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.022870 seconds.
+  path: Assets/GazeInteraction/Scripts/GazeInteractable.cs
+  artifactKey: Guid(940cf113db309de4680b82ff1649820d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/GazeInteractable.cs using Guid(940cf113db309de4680b82ff1649820d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5eb2448660827d948c7f68cbda50427') in 0.001016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.018626 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Textures/QuadSphere_Blue_BakedDiffuse.png
+  artifactKey: Guid(7070b26d96eaa49b49d850490d6af291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Textures/QuadSphere_Blue_BakedDiffuse.png using Guid(7070b26d96eaa49b49d850490d6af291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715bd54e5252c6383e49282dfd8aed09') in 0.030916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006541 seconds.
+  path: Assets/Plugins/Android/gradleTemplate.properties
+  artifactKey: Guid(030ae09baf59932479dcbe63d182f191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/gradleTemplate.properties using Guid(030ae09baf59932479dcbe63d182f191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cb48ccfff3aacd712f571d3e953604') in 0.001870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005737 seconds.
+  path: Assets/XR/Loaders/XRLoader.asset
+  artifactKey: Guid(8fed7472581834c44a77995d3012170f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/XRLoader.asset using Guid(8fed7472581834c44a77995d3012170f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb0a290fddf8f57bfcd34827803bf45') in 0.001962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006140 seconds.
+  path: Assets/Plugins/Android/mainTemplate.gradle
+  artifactKey: Guid(52042600eb8305b458c93fb0132f1b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android/mainTemplate.gradle using Guid(52042600eb8305b458c93fb0132f1b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46ed17121bf830636bad8be30fba997') in 0.001588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003313 seconds.
+  path: Assets/XR/Settings
+  artifactKey: Guid(408c271a099d727418b0ea1f2f8d57cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings using Guid(408c271a099d727418b0ea1f2f8d57cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff690475e7d96f5e7a308399eabfbb8') in 0.000832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.050896 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ea1972c79e2717dc61467c8ce2277e') in 0.086072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.004206 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1524148759
+  artifactKey: Guid(c88c45e913deded40bb6e21cd3497966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1524148759 using Guid(c88c45e913deded40bb6e21cd3497966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c080e1806b6f96792c5db7f7ca39550') in 0.001702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.003886 seconds.
+  path: Assets/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb8c8d526b56b02a177794fb5aaffbd') in 0.001167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.027075 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1900682021
+  artifactKey: Guid(32ffbbd3d0d5dc74390699a5881984ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1900682021 using Guid(32ffbbd3d0d5dc74390699a5881984ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b238cfbb1bea8dfa3c8951552b6d7869') in 0.001738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005918 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1012561520
+  artifactKey: Guid(131dbe717587b3745a8fc81ef56a8264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1012561520 using Guid(131dbe717587b3745a8fc81ef56a8264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2209e1fe0105cc64a45e06171210995e') in 0.001730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.043155 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/obj
+  artifactKey: Guid(7bdaeafe34e54824e9eb7cc3c01f9bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/obj using Guid(7bdaeafe34e54824e9eb7cc3c01f9bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be81ef9bd12a7151ec13a631b32410f') in 0.000806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.013610 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77d945af6f2a2ba96621f031f3cbc4d') in 0.001468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.023729 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Textures/TriSphere_Blue_BakedDiffuse.png
+  artifactKey: Guid(ce4a1a00714294255b95526bab0d31b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Textures/TriSphere_Blue_BakedDiffuse.png using Guid(ce4a1a00714294255b95526bab0d31b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc0efe05c79e655342817f610aa4ddf') in 0.034105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.026416 seconds.
+  path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Environments
+  artifactKey: Guid(5ef0e8bf68bf74d4da3cee3da9b1d2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Google Cardboard XR Plugin for Unity/1.24.0/Hello Cardboard/Environments using Guid(5ef0e8bf68bf74d4da3cee3da9b1d2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce214073d79504865abdda336b35ad64') in 0.001018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004176 seconds.
+  path: Assets/GazeInteraction/Scripts/obj
+  artifactKey: Guid(1cbfc50207e87004b97f57897b5c525d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj using Guid(1cbfc50207e87004b97f57897b5c525d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36811ef324af4153e1e1c6e807305a0') in 0.000967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003705 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c36a6349224b0ebebc1e51428e6fea') in 0.000803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.024292 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1611919719
+  artifactKey: Guid(16360addae2aed543ac5b85d5ab390af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/1611919719 using Guid(16360addae2aed543ac5b85d5ab390af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fe75f1cf42c5e795cf877d10e0af3c') in 0.001783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005842 seconds.
+  path: Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1272382476
+  artifactKey: Guid(f58988262e3542e4e9035eada76e19b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GazeInteraction/Scripts/obj/xdoc/cache/final/-1272382476 using Guid(f58988262e3542e4e9035eada76e19b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0639f6938449799372c595bebbe62b6') in 0.002069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
